@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Kerala</title>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scrollbar-width: none;
+      
+    }
+    
+    body {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background: linear-gradient(to bottom right, #d4fcd1, #b1f6c5);
+      color: #000000;
+    }
+
+    .head {
+        position: relative;
+        display: flex;
+        justify-content:space-between; 
+        align-items: center;
+        padding: 15px;
+        background: #2a8f2e;
+        border-bottom: 2px solid #2a8f2e;
+        
+    }
+
+    .H1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        
+    }
+    
+    #txt{
+        font-size: 15px;
+        justify-content: left;
+        margin: 0%;
+    }
+    nav {
+        display: flex;
+        margin: 0%;
+    }
+
+    nav a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 5px;
+    }
+    nav a:hover{
+        color: rgb(0, 0, 0);
+    }
+
+    .p1{
+        font-size: 20px;
+        text-align: center;
+        border-bottom: 2px solid #2a8f2e;
+        
+    }
+    .h2{
+        font-size: 25px;
+
+    }
+    .Gallery{
+        text-align: center;
+        font-size: 30px;
+        border-bottom: 2px solid #2a8f2e;
+    }
+    
+    .Gallery img {
+            width: 320px;
+            height: 220px;
+            margin: 10px;
+            border-radius: 10px;
+    }
+    .Gallery h2{
+        color: #004f1c;
+    
+    }
+    .Gallery img:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }
+    
+    .iframe{
+        text-align: center;
+        font-size: 30px;
+        color: #004f1c;
+        height: 385px;
+        display: inline-block;
+        padding:22px;
+        
+    }
+         
+
+
+    .video {
+        display: flex;
+        width: 1536px;
+        height: auto;
+        flex-wrap: wrap; 
+        border-bottom: 2px solid #2a8f2e; 
+    }
+    #video {
+        display: flex;
+        width: 1536px;
+        height: auto;
+        flex-wrap: wrap; 
+        border-top: 2px solid #2a8f2e;
+        border-bottom: 2px solid #2a8f2e;
+    }
+
+    .Subscribe{
+        color: #004f1c;
+        font-size: 20px;
+        text-align: center;
+        border-bottom: 2px solid #2a8f2e;
+    }
+
+    .Subscribe input{
+        color: rgb(0, 86, 21);
+        border-color: #0eff16;
+    }
+    
+    .button {
+      background-color: #62fb57;
+      border-radius: 30px;
+      width: 100px;
+      padding: 5px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #0eff16;
+    }
+    
+    
+    .footer{
+        background-color: #2a8f2e;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+
+    
+</style>
+</head>
+<body>
+
+<!--Head-->
+    <div class="head">
+        <img src="./images/logo.png" alt="Kerala Logo">
+        <div class="H1">
+            KERALA TOURISM
+        </div>
+        <nav id="txt">
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#video">Video</a>
+        <a href="#contact">Contact</a>
+        </nav>
+  </div>
+
+<!--p1-->
+    <div class="p1">
+            <p>The best time to visit Kerala is generally during the winter months, from September to March. <br>    
+        Kerala is famous for tourism due to its diverse natural beauty, including backwaters, beaches, and hill stations,   <br>
+         along with its rich cultural heritage.  Referred to as "God's Own Country", Kerala offers a variety of attractions and activities, making it a popular destination for travelers. </p>
+    </div>
+
+<!--Video1-->
+        <video class="video" autoplay loop muted controls>
+            <source src="./images/./Kerala Tourism.mp4" />
+        </video> 
+
+<!--Gallery-->
+    <div class="Gallery">
+        <h2 ><u><b>PHOTO GALLERY</b></u></h2>
+            <img src="./images/Ke.jpeg"  > &nbsp;
+            <img src="./images/beaches.jpg"  >&nbsp;
+            <img src="./images/festivals.jpg" >&nbsp;&nbsp;
+            <img src="./images/forts.jpg" >&nbsp;&nbsp;
+            <img src="./images/sank.jpg" >&nbsp;&nbsp;
+            <img src="./images/km.jpg" >&nbsp;&nbsp;
+            <img src="./images/munnar.jpg" >&nbsp;&nbsp;
+            <img src="./images/ht.jpg" >&nbsp;&nbsp;
+    </div>
+
+<!--video2-->
+  <video class="video" autoplay loop muted controls>
+    <source src="./images/./KT.mp4" />
+  </video>
+
+<!--IFrame-->
+    <div class="iframe">
+        <h2><u>VIDEO GALLERY</h2></u>     
+        <iframe width="490" height="275" &nbsp; src="https://www.youtube.com/embed/bNrd5R0cUW0?si=HysxfvNiXj010pz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <iframe width="490" height="275" &nbsp; src="https://www.youtube.com/embed/wHssRvnkn6k?si=uS6UGezdsqtNA-OD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        
+        
+        <iframe width="490" height="275" &nbsp; src="https://www.youtube.com/embed/SEcU2lxHTjo?si=aqBlWx8Ba_KwR3_a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>          
+    </div>
+
+<!--Video3-->
+        <video id="video" autoplay loop muted controls>
+            <source src="./images/./Kerala Tourism.mp4" />
+        </video> 
+<br>
+
+<!--Subscribe-->
+    <div class="Subscribe">
+        <h1><u>SUBSCRIBE TO OUR NEWSLETTER</u></h1><br>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text">
+                <label for="email">Email</label>
+                <input type="email">
+                <button class="button" type="on-click">Subscribe</button>
+            </form>
+            <br>
+    </div>
+    
+
+<!--Footer-->
+    <div class="footer">
+        <br>
+        <h3>Kerala Tourism</h3>
+        Kerala, also known as "God's Own Country," is a popular tourist destination in India.     
+        <p><strong>Email:</strong> kerala@gmail.com</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Address:</strong> Kerala Tourism Office, Trivandrum, Kerala, India</p>
+    <br>
+    </div>
+</body>
+</html>
