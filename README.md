@@ -1,2 +1,2 @@
 # Kerala-Tourism
-It is an Kerala Tourism website build using html and css
+Kerala Tourism – God's Own Country is a premium, visually immersive tourism website designed to showcase the breathtaking beauty, rich culture, and diverse travel experiences of Kerala. The website combines cinematic visuals, elegant typography, smooth animations, and interactive layouts to create an engaging digital journey that inspires visitors to explore one of India's most beautiful destinations. Built using HTML5, CSS3, and JavaScript, the website delivers a luxurious and responsive browsing experience across all devices
